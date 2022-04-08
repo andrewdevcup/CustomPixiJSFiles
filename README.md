@@ -2,7 +2,7 @@
 Tests with Pixijs production builds (pixi.min.js)
 
 Added <code>this.onPreDraw()</code> in Sprite and Graphics <code>render()</code> methods to set different filter uniforms reused in each object.
-<br>Added <code>_onLoad()</code> and <code>_onError()</code> on ImageResource to call when it's loaded or there's an error.
+<br>Added <code>_onLoad()</code> and <code>_onError()</code> on ImageResource that's called when it's loaded or there's an error.
 <br>Added the capability to load textures in lower (custom) resolution.
 
 ## Loading Textures at a lower resolution
