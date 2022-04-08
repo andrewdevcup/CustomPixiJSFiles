@@ -17,7 +17,9 @@ var tex = PIXI.Texture.from('somefile.png');
 tex.baseTexture.resource.bitmapFromImage = true;
 
 //Set the bitmap resolution
-tex.baseTexture.resource.resolution = 0.5; //Half of the original image resolution, floating points are rounded.
+tex.baseTexture.resource.resolution = 0.5; 
+//Half of the original image resolution, 
+//floating points are rounded.
 
 //Set the bitmap resizing quality (higher is slower)
 tex.baseTexture.resource.resizeQuality = PIXI.BITMAP_QUALITY.LOW;
