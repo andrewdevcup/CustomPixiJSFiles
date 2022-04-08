@@ -12,7 +12,8 @@ PIXI.settings.CREATE_IMAGE_BITMAP = true;
 
 var tex = PIXI.Texture.from('somefile.png');
 
-//Create bitmap from the image source rather than using blob, because when using blob you're still loading the full size.
+//Create bitmap from the image source rather than using blob, 
+//because when using blob you're still loading the full size.
 tex.baseTexture.resource.bitmapFromImage = true;
 
 //Set the bitmap resolution
@@ -21,7 +22,8 @@ tex.baseTexture.resource.resolution = 0.5; //Half of the original image resoluti
 //Set the bitmap resizing quality (higher is slower)
 tex.baseTexture.resource.resizeQuality = PIXI.BITMAP_QUALITY.LOW;
 
-//Make sure scale your sprite and spritesheet because of the lower resolution texture.
+//Make sure scale your sprite and spritesheet 
+//because of the lower resolution texture.
 
 var sprite = new PIXI.Sprite(tex);
 sprite.scale.set( 1 / tex.(...).resolution );
