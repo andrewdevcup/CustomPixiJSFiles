@@ -29,3 +29,6 @@ tex.baseTexture.resource.resizeQuality = PIXI.BITMAP_QUALITY.LOW;
 var sprite = new PIXI.Sprite(tex);
 sprite.scale.set( 1 / tex.(...).resolution );
 ```
+
+## Working example
+https://pixiplayground.com/#/edit/LC-lfRUmGnuij0KK1qAfR
